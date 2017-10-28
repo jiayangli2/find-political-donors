@@ -4,8 +4,9 @@ I used several data structures to tackle this problem, including HashSet, HashMa
 
 For the input, I assume that each line will consist of at least 15 items after splitting it with "|". Otherwise, we will not be able to process this record since the donation amount, the 15th item in the record, will be missing.
 
-My solution runs in Java 1.7. All libraries it uses are built-in libraries for Java 1.7. You can run it by run.sh or run_tests.sh. However, if you want to compile it, you can go to the src directory and run the following command:
-javac Contribution.java
+My solution runs in Java 1.7. All libraries it uses are built-in libraries for Java 1.7. You can run it by run.sh or run_tests.sh. However, if you want to compile it, you can go to the root directory and run the following command:
+
+javac ./src/Contribution.java
 
 After that, you can run the program with 3 arguments denoting the input file, the output file for zip, and the output file for date.
 
