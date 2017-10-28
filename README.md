@@ -10,5 +10,7 @@ javac ./src/Contribution.java
 
 After that, you can run the program with 3 arguments denoting the input file, the output file for zip, and the output file for date.
 
+
 Example running the program in the root directory
+
 java -classpath ./src Contribution ./input/itcont.txt ./output/medianvals_by_zip.txt ./output/medianvals_by_date.txt
